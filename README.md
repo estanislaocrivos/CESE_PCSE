@@ -11,3 +11,9 @@ Este proyecto se trata de un sistema de registro de ingreso y egreso de personal
 Para implementar los device drivers tanto para el display como para el sensor, primero se implementaron las librerías que comunican la capa de aplicación con el HW. Estas librerías son API_I2C y API_SPI, las cuales se encuentran dentro de Drivers/API/inc y /src respectivamente.
 
 Las librerías que inicializan los periféricos e interactúan con ellos en la capa de aplicación son API_LCD y stm32f1_rc522 para el LCD y el sensor RFID respectivamente. Se encuentran en la carpeta  Drivers/Others/inc y /src respectivamente.
+
+El polling del periférico RC522_RFID se realiza en el estado IDLE de la máquina de estados finitos, llamado constantemente en el bucle while(1) en el estado normal de la máquina. Al detectar el sensor una tarjeta sale de este estado. 
+
+En el caso del display, el polling no tiene sentido ya que solamente se envían datos hacia el display y no se espera nada de él.
+
+El proyecto fue realizado sobre la plataforma STM32F401RE.

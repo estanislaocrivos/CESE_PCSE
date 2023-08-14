@@ -24,7 +24,7 @@ I2C_HandleTypeDef hi2c1;
   * Calls Error_Handler in case of error.
   *
   * @param void
-  * @retval uint8_t
+  * @retval void
   */
 void I2C_Init(void)
 {
