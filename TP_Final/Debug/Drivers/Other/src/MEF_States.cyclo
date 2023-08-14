@@ -1,0 +1,5 @@
+../Drivers/Other/src/MEF_States.c:36:9:MEF_Idle	1
+../Drivers/Other/src/MEF_States.c:63:9:MEF_Authenticate	8
+../Drivers/Other/src/MEF_States.c:128:6:MEF_Start_Shift	2
+../Drivers/Other/src/MEF_States.c:157:6:MEF_Conclude_Shift	3
+../Drivers/Other/src/MEF_States.c:208:6:MEF_Error	2

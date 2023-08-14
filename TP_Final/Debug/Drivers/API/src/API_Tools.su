@@ -1,0 +1,5 @@
+../Drivers/API/src/API_Tools.c:15:6:Green_LED_OFF	8	static
+../Drivers/API/src/API_Tools.c:20:6:Red_LED_ON	8	static
+../Drivers/API/src/API_Tools.c:25:6:Green_LED_Toggle	8	static
+../Drivers/API/src/API_Tools.c:30:6:Red_LED_Toggle	8	static
+../Drivers/API/src/API_Tools.c:35:6:Buzzer_Toggle	8	static

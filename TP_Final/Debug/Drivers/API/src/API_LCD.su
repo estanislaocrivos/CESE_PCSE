@@ -1,0 +1,7 @@
+../Drivers/API/src/API_LCD.c:32:6:LCD_Init	8	static
+../Drivers/API/src/API_LCD.c:67:6:LCD_Send_Cmd	24	static
+../Drivers/API/src/API_LCD.c:96:6:LCD_Send_Char	24	static
+../Drivers/API/src/API_LCD.c:121:6:LCD_Send_String	24	static
+../Drivers/API/src/API_LCD.c:143:6:LCD_Place_Cursor	24	static
+../Drivers/API/src/API_LCD.c:159:6:LCD_Print	16	static
+../Drivers/API/src/API_LCD.c:175:6:LCD_Clear	8	static

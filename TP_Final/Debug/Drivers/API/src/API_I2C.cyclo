@@ -1,0 +1,2 @@
+../Drivers/API/src/API_I2C.c:29:6:I2C_Init	2
+../Drivers/API/src/API_I2C.c:55:6:I2C_Transmit	2
