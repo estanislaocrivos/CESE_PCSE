@@ -15,6 +15,9 @@
 #include "API_I2C.h"
 #include "main.h"
 
+/* I2C address defined by the LCD manufacturer */
+#define LCD_Module_Address 0x4E
+
 /* I2C handler */
 I2C_HandleTypeDef hi2c1;
 

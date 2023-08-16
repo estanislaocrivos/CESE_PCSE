@@ -1,7 +1,7 @@
 /*
  * API_LCD.c
  *
- * This library contains functions for using and handling an 16X2 LCD display
+ * This library contains functions for initializing and handling an 16X2 LCD display
  * using I2C communication.
  *
  * Author: Estanislao Crivos
@@ -13,9 +13,6 @@
 #include "API_I2C.h"
 #include "stdint.h"
 #include "stm32f4xx.h"
-
-/* I2C address defined by the LCD manufacturer */
-#define LCD_Module_Address 0x4E
 
 /* Import I2C handler */
 //extern I2C_HandleTypeDef hi2c1;
